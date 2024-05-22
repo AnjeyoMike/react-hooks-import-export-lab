@@ -1,4 +1,4 @@
-import React from "react";
+/*import React from "react";
 
 function Home() {
   return (
@@ -8,4 +8,19 @@ function Home() {
       </h1>
     </div>
   );
-}
+}*/
+import React from 'react';
+import { username, city } from '../data/user'; // Importing username and city variables
+
+const Home = () => {
+  return (
+    <div>
+      <h1>Home</h1>
+      <p>Username: {username}</p>
+      <p>City: {city}</p>
+    </div>
+  );
+};
+
+export default Home;
+
